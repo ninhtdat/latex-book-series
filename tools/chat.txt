@@ -1,0 +1,130 @@
+# Kích hoạt môi trường ảo Python
+source .venv/bin/activate
+
+
+% VIẾT SÁCH
+Tôi muốn viết một cuốn sách có tiêu đề: "".
+
+Nhiệm vụ:
+- Đề xuất cấu trúc sách gồm các chương hợp lý.
+- Với mỗi chương, mô tả ngắn gọn nội dung chính cần viết.
+
+Yêu cầu định dạng:
+- Trả kết quả trong một khung code duy nhất.
+- Định dạng chính xác như sau:
+
+Chương 1: Tên chương  
+Mô tả: ...
+
+
+% LẬP DÀN Ý CHƯƠNG
+Nhiệm vụ:
+- Lập dàn ý cho từng chương.
+- Mỗi chương gồm đúng 5 ý chính.
+
+
+% VIẾT NỘI DUNG CHƯƠNG
+Nhiệm vụ:
+- Viết nội dung cho **phần 1** của chương.
+
+Yêu cầu:
+- Viết bằng tiếng Việt.
+- Nội dung bám sát dàn ý chương đã xác định.
+- Độ dài từ 500–800 từ.
+
+Định dạng LaTeX (bắt buộc, xuất đúng cấu trúc):
+
+\chapter{Tên chương}
+
+[Mở đầu chương]
+
+\section{Tên phần 1}
+
+Nội dung
+
+\section{Tên phần 2}
+
+Nội dung
+
+Quy định:
+- Chỉ xuất một khung code duy nhất.
+- Không viết bất kỳ giải thích hay lời dẫn nào ngoài khung code.
+
+
+% CHUYỂN ĐOẠN VĂN TIẾNG VIỆT SANG SONG NGỮ VIỆT–ANH
+Nhiệm vụ:
+- Chuyển đoạn văn tiếng Việt sau sang song ngữ Việt–Anh trong LaTeX.
+
+Quy tắc:
+- Giữ nguyên nguyên văn tiếng Việt.
+- Tiêu đề: sau \chapter hoặc \section tiếng Việt, thêm một dòng tiếng Anh trong \textit{...}.
+- Nội dung: sau mỗi đoạn tiếng Việt, thêm bản tiếng Anh tương ứng trong \textit{...}.
+- Văn phong học thuật, trung tính.
+- Không thêm giải thích hay chú thích.
+- Xuất toàn bộ trong một khung code LaTeX.
+
+Đoạn văn:
+
+
+% CHUẨN HÓA DANH SÁCH TỪ VỰNG TIẾNG ANH
+Vai trò:
+- Bạn là công cụ chuẩn hóa danh sách từ vựng tiếng Anh.
+
+Đầu vào:
+- Một danh sách từ vựng tiếng Anh, mỗi từ trên một dòng.
+
+Đầu ra:
+- Toàn bộ kết quả nằm trong một khung code duy nhất.
+- Mỗi dòng có định dạng chính xác:
+
+English_word[TAB]pos[TAB]nghĩa tiếng Việt
+
+Quy tắc:
+- pos chỉ được phép là: n, v, adj, adv, other.
+- Từ tiếng Anh phải ở dạng gốc (lemma).
+- Chỉ chọn 1 nghĩa tiếng Việt phổ biến nhất.
+- Ưu tiên nghĩa liên quan đến Công nghệ Thông tin nếu có.
+- Không thêm chú thích, không giải thích.
+- Không đánh số thứ tự, không thêm dòng trống.
+- Giữ nguyên thứ tự từ đầu vào.
+
+
+% CHUYỂN ĐOẠN VĂN TIẾNG VIỆT SANG SONG NGỮ VIỆT–NHẬT
+Nhiệm vụ:
+- Chuyển đoạn văn tiếng Việt sau sang song ngữ Việt–Nhật trong LaTeX.
+
+Quy tắc:
+- Giữ nguyên nguyên văn tiếng Việt.
+- Tiêu đề: sau \chapter hoặc \section tiếng Việt, thêm một dòng tiếng Nhật.
+- Nội dung: sau mỗi đoạn tiếng Việt, thêm bản tiếng Nhật tương ứng.
+- Văn phong học thuật, trung tính.
+- Mặc định dùng \ruby{漢字}{かな} cho **kanji** khi cần.
+- Không dùng ruby cho katakana.
+- Không thêm giải thích hay chú thích ngoài nội dung dịch.
+- Xuất toàn bộ trong một khung code LaTeX.
+
+Đoạn văn:
+
+
+% CHUẨN HÓA DANH SÁCH TỪ VỰNG TIẾNG NHẬT (CÓ PHÂN LOẠI TÍNH TỪ)
+Vai trò:
+- Bạn là công cụ chuẩn hóa danh sách từ vựng tiếng Nhật.
+
+Đầu vào:
+- Một danh sách từ vựng tiếng Nhật, mỗi từ trên một dòng.
+
+Đầu ra:
+- Toàn bộ kết quả nằm trong một khung code duy nhất.
+- Mỗi dòng có định dạng chính xác:
+
+Japanese_word[TAB]pos[TAB]nghĩa tiếng Việt
+
+Quy tắc:
+- pos chỉ được phép là: n, v, adj-i, adj-na, adv, other.
+- Từ tiếng Nhật phải ở dạng từ điển (辞書形).
+- Chỉ chọn 1 nghĩa tiếng Việt phổ biến nhất.
+- Ưu tiên nghĩa liên quan đến Công nghệ Thông tin nếu có.
+- Không thêm chú thích, không giải thích.
+- Không đánh số thứ tự, không thêm dòng trống.
+- Giữ nguyên thứ tự từ đầu vào.
+

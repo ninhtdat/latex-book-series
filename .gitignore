@@ -1,0 +1,74 @@
+# ==============================
+# LaTeX build artifacts (all engines)
+# ==============================
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.xdv
+
+# ==============================
+# LuaLaTeX / XeLaTeX specific
+# ==============================
+*.bcf
+*.run.xml
+*.lua
+*.luac
+*.ljruby
+*.ltjruby
+luaotfload-cache/
+
+# ==============================
+# Bibliography
+# ==============================
+*.bbl
+*.blg
+
+# ==============================
+# Index / Glossary
+# ==============================
+*.idx
+*.ilg
+*.ind
+*.glo
+*.gls
+*.glg
+*.acn
+*.acr
+*.alg
+
+# ==============================
+# Output files
+# ==============================
+*.pdf
+
+# ==============================
+# Temporary / backup files
+# ==============================
+*.tmp
+*.bak
+*.swp
+*.~*
+*~
+
+# ==============================
+# OS / Editor
+# ==============================
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+
+# ==============================
+# Tool cache / build dirs
+# ==============================
+.latexmk/
+_texlive/

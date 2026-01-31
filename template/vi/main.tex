@@ -1,0 +1,109 @@
+% ==============================
+% Enforce LuaLaTeX
+% ==============================
+\RequirePackage{ifluatex}
+\ifluatex\else
+  \errmessage{This document must be compiled with LuaLaTeX}
+\fi
+
+\documentclass[12pt,a4paper,oneside]{book}
+
+% ==============================
+% Page layout
+% ==============================
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+
+% ==============================
+% Fonts & Unicode
+% ==============================
+\usepackage{fontspec}
+
+% Latin (Vietnamese / English)
+\setmainfont{Libertinus Serif}
+\setsansfont{Libertinus Sans}
+\setmonofont{Libertinus Mono}
+
+% ==============================
+% Japanese (LuaLaTeX core)
+% ==============================
+\usepackage{luatexja}
+\usepackage{luatexja-fontspec}
+\setmainjfont{Noto Serif CJK JP}
+
+% Furigana (ruby)
+\usepackage{luatexja-ruby}
+
+% ==============================
+% Languages
+% ==============================
+\usepackage{polyglossia}
+\setdefaultlanguage{vietnamese}
+\setotherlanguages{english}
+
+% ==============================
+% Typography refinement
+% ==============================
+\usepackage{microtype}
+
+% ==============================
+% Header / Footer
+% ==============================
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\leftmark}
+\fancyhead[LO]{\rightmark}
+
+% ==============================
+% Hyperlinks & PDF metadata
+% ==============================
+\usepackage{hyperref}
+\hypersetup{
+  unicode=true,
+  hidelinks,
+  pdftitle={Tiêu đề sách - Book Title},
+  pdfauthor={Đạt Ninh}
+}
+
+% ==============================
+% Title
+% ==============================
+\title{
+  Tiêu đề sách\\
+  \large Book Title
+}
+\author{Đạt Ninh}
+\date{\today}
+
+% ==============================
+% Document
+% ==============================
+\begin{document}
+
+\frontmatter
+\maketitle
+\tableofcontents
+
+\mainmatter
+
+% ===== Chapters =====
+\include{chapters/chap01}
+\include{chapters/chap02}
+\include{chapters/chap03}
+
+\backmatter
+
+\chapter*{Lời cảm ơn}
+\addcontentsline{toc}{chapter}{Lời cảm ơn}
+
+\begin{center}
+Cảm ơn bạn đã đọc đến cuối.\\
+\textit{Thank you for reading to the end.}
+
+\ruby{最後}{さいご}まで\ruby{読}{よ}んでいただき、ありがとうございました。
+\end{center}
+
+\end{document}
