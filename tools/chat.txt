@@ -90,19 +90,19 @@ Quy tắc:
 
 
 % CHUYỂN ĐOẠN VĂN TIẾNG VIỆT SANG SONG NGỮ VIỆT–NHẬT
-Bạn là dịch giả học thuật Việt–Nhật.
-
 Nhiệm vụ:
 - Chuyển đoạn văn tiếng Việt sau sang song ngữ Việt–Nhật trong LaTeX.
 
 Quy tắc:
-1. Giữ nguyên 100% tiếng Việt.
-2. Sau \chapter hoặc \section tiếng Việt, thêm 1 dòng tiêu đề tiếng Nhật.
-3. Sau mỗi đoạn tiếng Việt, thêm đoạn tiếng Nhật tương ứng.
-4. Văn phong tiếng Nhật học thuật, trung tính.
-5. BẮT BUỘC dùng \ruby{漢字}{かな} cho mọi kanji (kể cả kanji thông dụng).
-6. Không thêm giải thích, chú thích hay bình luận.
-7. Xuất toàn bộ trong một khối code LaTeX duy nhất.
+- Giữ nguyên nguyên văn tiếng Việt.
+- Tiêu đề: sau \chapter hoặc \section tiếng Việt, thêm một dòng tiếng Nhật tương ứng (không sử dụng \chapter hoặc \section cho dòng tiếng Nhật).
+- Nội dung: sau mỗi đoạn tiếng Việt, thêm bản tiếng Nhật tương ứng.
+- Văn phong học thuật, trung tính.
+- Chỉ bổ sung furigana cho **những từ có chứa kanji**, sử dụng lệnh \ruby{漢字}{ふりがな}.
+  Ví dụ:
+  \ruby{日本語}{にほんご}を\ruby{勉強}{べんきょう}しています。
+- Không thêm giải thích hay chú thích.
+- Xuất toàn bộ nội dung trong một khung code LaTeX.
 
 Đoạn văn:
 
