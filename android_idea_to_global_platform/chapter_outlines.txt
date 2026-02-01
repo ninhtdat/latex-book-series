@@ -1,0 +1,98 @@
+Chương 1: Bối cảnh ra đời của Android  
+Mô tả: Trình bày bối cảnh công nghệ đầu những năm 2000, sự phát triển của thiết bị di động, hạn chế của các hệ điều hành trước Android (Symbian, Windows Mobile, BlackBerry OS) và nhu cầu tất yếu cho một nền tảng mở.
+
+1. Thị trường thiết bị di động đầu những năm 2000: đặc điểm phần cứng, giới hạn tài nguyên và xu hướng sử dụng chủ yếu cho liên lạc cơ bản.  
+2. Các hệ điều hành di động phổ biến trước Android: mô hình phát triển đóng, phụ thuộc nhà sản xuất và hạn chế về khả năng mở rộng.  
+3. Khó khăn của lập trình viên khi phát triển ứng dụng di động thời kỳ đầu: công cụ nghèo nàn, API không thống nhất, chi phí cao.  
+4. Sự trỗi dậy của Internet di động và nhu cầu tích hợp dịch vụ trực tuyến, dữ liệu và ứng dụng phong phú trên thiết bị cầm tay.  
+5. Nhu cầu tất yếu về một nền tảng di động mã nguồn mở, linh hoạt, dễ mở rộng và có khả năng tạo hệ sinh thái lớn.
+
+Chương 2: Android Inc. và thương vụ với Google  
+Mô tả: Phân tích quá trình thành lập Android Inc., tầm nhìn ban đầu của Andy Rubin và đội ngũ sáng lập, lý do Google mua lại Android, cùng chiến lược dài hạn của Google trong lĩnh vực di động.
+
+1. Sự ra đời của Android Inc.: mục tiêu ban đầu, đội ngũ sáng lập và định hướng xây dựng hệ điều hành cho thiết bị di động.  
+2. Tầm nhìn kỹ thuật của Andy Rubin: hệ điều hành linh hoạt, gắn chặt với dịch vụ và dữ liệu trực tuyến.  
+3. Bối cảnh Google trước khi mua Android: nhu cầu mở rộng hệ sinh thái tìm kiếm và dịch vụ sang nền tảng di động.  
+4. Thương vụ mua lại Android Inc.: động cơ chiến lược, rủi ro và cơ hội từ góc nhìn kinh doanh lẫn kỹ thuật.  
+5. Định hướng dài hạn của Google: xây dựng một nền tảng di động mở để chi phối hệ sinh thái ứng dụng và dịch vụ.
+
+Chương 3: Kiến trúc kỹ thuật cốt lõi của Android  
+Mô tả: Mô tả kiến trúc Android dưới góc nhìn kỹ sư CNTT: Linux Kernel, HAL, Android Runtime (Dalvik, ART), Framework và Application Layer; giải thích vì sao các quyết định kiến trúc này mang tính chiến lược.
+
+1. Linux Kernel: vai trò trong quản lý tiến trình, bộ nhớ, driver và tính ổn định của hệ thống.  
+2. Hardware Abstraction Layer (HAL): cơ chế tách biệt phần cứng và phần mềm, hỗ trợ đa dạng thiết bị.  
+3. Android Runtime: Dalvik VM và sự chuyển đổi sang ART, tác động đến hiệu năng và quản lý bộ nhớ.  
+4. Android Framework: hệ thống API cốt lõi, service nền và mô hình ứng dụng hướng thành phần.  
+5. Application Layer: cách ứng dụng tương tác với hệ thống và ý nghĩa của kiến trúc phân tầng đối với khả năng mở rộng.
+
+Chương 4: Các phiên bản Android đầu tiên và giai đoạn định hình  
+Mô tả: Trình bày các phiên bản Android từ 1.0 đến 2.x, những tính năng nền tảng, hạn chế ban đầu và cách Google từng bước hoàn thiện trải nghiệm người dùng lẫn môi trường phát triển.
+
+1. Android 1.0–1.1: các tính năng cơ bản, triết lý thiết kế ban đầu và những thiếu sót rõ rệt.  
+2. Android 1.5–1.6: cải tiến UI, hỗ trợ widget và mở rộng khả năng cho nhà phát triển.  
+3. Android 2.0–2.1: tối ưu hiệu năng, hỗ trợ màn hình lớn hơn và tích hợp sâu dịch vụ Google.  
+4. Android 2.2–2.3: cải thiện tốc độ, quản lý bộ nhớ và trải nghiệm người dùng.  
+5. Đánh giá giai đoạn định hình: cách Google phản hồi thị trường và điều chỉnh chiến lược kỹ thuật.
+
+Chương 5: Sự trưởng thành của Android và bùng nổ hệ sinh thái  
+Mô tả: Phân tích giai đoạn Android 3.x–5.x: tối ưu UI/UX, hỗ trợ đa dạng phần cứng, sự phát triển của Google Play, vai trò của OEM và cộng đồng lập trình viên.
+
+1. Android 3.x và 4.x: tái thiết kế giao diện, chuẩn hóa trải nghiệm trên nhiều kích thước màn hình.  
+2. Android 5.x: Material Design và bước tiến lớn về ngôn ngữ thiết kế và hiệu năng hệ thống.  
+3. Sự phát triển của Google Play: phân phối ứng dụng, cập nhật và mô hình kinh doanh cho lập trình viên.  
+4. Vai trò của OEM: tùy biến hệ điều hành, cạnh tranh sản phẩm và tác động đến hệ sinh thái.  
+5. Cộng đồng lập trình viên: động lực chính thúc đẩy Android trở thành nền tảng di động phổ biến nhất.
+
+Chương 6: Android dưới góc nhìn nhà phát triển phần mềm  
+Mô tả: Trình bày sự tiến hóa của SDK, API, công cụ phát triển (Eclipse, Android Studio, Gradle), thay đổi trong mô hình lập trình và ảnh hưởng đến năng suất, chất lượng phần mềm.
+
+1. Sự phát triển của Android SDK và API: mở rộng chức năng, đảm bảo tương thích ngược và áp lực duy trì ổn định nền tảng.  
+2. Tiến hóa công cụ phát triển: từ Eclipse ADT đến Android Studio, tác động đến quy trình làm việc của lập trình viên.  
+3. Gradle và hệ thống build: tự động hóa, quản lý phụ thuộc và khả năng mở rộng dự án lớn.  
+4. Thay đổi mô hình lập trình Android: Activity, Fragment, Service đến kiến trúc hiện đại (MVVM, Jetpack).  
+5. Ảnh hưởng đến năng suất và chất lượng phần mềm: kiểm thử, CI/CD và chuẩn hóa best practice.
+
+Chương 7: Phân mảnh Android – vấn đề kỹ thuật và thương mại  
+Mô tả: Phân tích nguyên nhân phân mảnh phiên bản và thiết bị, tác động đến bảo mật, cập nhật hệ thống, kiểm thử phần mềm, cùng các giải pháp Google đã và đang triển khai.
+
+1. Nguyên nhân phân mảnh: đa dạng OEM, chu kỳ cập nhật khác nhau và tùy biến sâu hệ điều hành.  
+2. Phân mảnh phiên bản Android: ảnh hưởng đến API, khả năng tận dụng tính năng mới.  
+3. Phân mảnh thiết bị: khác biệt phần cứng, kích thước màn hình và hiệu năng.  
+4. Tác động đến bảo mật, cập nhật hệ thống và quy trình kiểm thử phần mềm.  
+5. Các giải pháp của Google: Google Play Services, Project Treble và Mainline.
+
+Chương 8: Bảo mật và quyền riêng tư trong Android  
+Mô tả: Đánh giá mô hình bảo mật Android theo thời gian: sandbox, permission, SELinux, cập nhật bảo mật; nhìn nhận ưu và nhược điểm từ góc độ kỹ sư CNTT.
+
+1. Mô hình sandbox ứng dụng và cách cô lập tiến trình trong Android.  
+2. Hệ thống permission: từ cài đặt một lần đến cấp quyền động theo ngữ cảnh.  
+3. Tích hợp SELinux: nâng cao kiểm soát truy cập và giảm bề mặt tấn công.  
+4. Cơ chế cập nhật bảo mật: bản vá hàng tháng và vai trò của Google và OEM.  
+5. Đánh giá tổng thể: ưu điểm, hạn chế và thách thức về quyền riêng tư người dùng.
+
+Chương 9: Android trong kỷ nguyên đa nền tảng và IoT  
+Mô tả: Trình bày sự mở rộng của Android sang tablet, TV, wearables, ô tô và IoT; phân tích vai trò của Android trong chiến lược hệ sinh thái số của Google.
+
+1. Android trên tablet và thiết bị màn hình lớn: tối ưu giao diện và trải nghiệm đa nhiệm.  
+2. Android TV và Google TV: mở rộng Android sang lĩnh vực giải trí gia đình.  
+3. Wear OS và thiết bị đeo: thách thức về pin, hiệu năng và trải nghiệm người dùng.  
+4. Android Automotive: tích hợp hệ điều hành vào ô tô và hệ thống điều khiển.  
+5. Android và IoT: vai trò trong hệ sinh thái đa thiết bị và kết nối thông minh.
+
+Chương 10: Android hiện đại và xu hướng tương lai  
+Mô tả: Phân tích các phiên bản Android gần đây, định hướng kỹ thuật (modularization, Project Treble/Mainline), ảnh hưởng của AI, bảo mật nâng cao và dự đoán tương lai của Android dưới góc nhìn kỹ sư CNTT.
+
+1. Android hiện đại: cải tiến hiệu năng, quyền riêng tư và trải nghiệm người dùng.  
+2. Modularization hệ thống: Project Treble và Mainline, giảm phụ thuộc OEM.  
+3. Tích hợp AI và machine learning: cá nhân hóa, tối ưu tài nguyên và bảo mật.  
+4. Xu hướng bảo mật nâng cao: kiểm soát dữ liệu, quyền truy cập và cập nhật nhanh.  
+5. Dự đoán tương lai Android: vai trò trong hệ sinh thái số và cạnh tranh nền tảng.
+
+Chương 11: Bài học kỹ thuật và quản trị từ lịch sử Android  
+Mô tả: Tổng kết các bài học về thiết kế hệ điều hành, quản trị dự án phần mềm quy mô lớn, cân bằng giữa mã nguồn mở và lợi ích thương mại, rút ra kinh nghiệm cho kỹ sư CNTT và nhà quản lý công nghệ.
+
+1. Bài học về thiết kế hệ điều hành linh hoạt và khả năng mở rộng lâu dài.  
+2. Quản trị dự án phần mềm quy mô lớn với nhiều bên tham gia.  
+3. Cân bằng giữa mã nguồn mở và chiến lược thương mại.  
+4. Vai trò của cộng đồng và hệ sinh thái trong thành công công nghệ.  
+5. Kinh nghiệm rút ra cho kỹ sư CNTT và nhà quản lý công nghệ trong tương lai.

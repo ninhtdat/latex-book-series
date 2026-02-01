@@ -1,0 +1,32 @@
+Chương 1: Bối cảnh ra đời của Android  
+Mô tả: Trình bày bối cảnh công nghệ đầu những năm 2000, sự phát triển của thiết bị di động, hạn chế của các hệ điều hành trước Android (Symbian, Windows Mobile, BlackBerry OS) và nhu cầu tất yếu cho một nền tảng mở.
+
+Chương 2: Android Inc. và thương vụ với Google  
+Mô tả: Phân tích quá trình thành lập Android Inc., tầm nhìn ban đầu của Andy Rubin và đội ngũ sáng lập, lý do Google mua lại Android, cùng chiến lược dài hạn của Google trong lĩnh vực di động.
+
+Chương 3: Kiến trúc kỹ thuật cốt lõi của Android  
+Mô tả: Mô tả kiến trúc Android dưới góc nhìn kỹ sư CNTT: Linux Kernel, HAL, Android Runtime (Dalvik, ART), Framework và Application Layer; giải thích vì sao các quyết định kiến trúc này mang tính chiến lược.
+
+Chương 4: Các phiên bản Android đầu tiên và giai đoạn định hình  
+Mô tả: Trình bày các phiên bản Android từ 1.0 đến 2.x, những tính năng nền tảng, hạn chế ban đầu và cách Google từng bước hoàn thiện trải nghiệm người dùng lẫn môi trường phát triển.
+
+Chương 5: Sự trưởng thành của Android và bùng nổ hệ sinh thái  
+Mô tả: Phân tích giai đoạn Android 3.x–5.x: tối ưu UI/UX, hỗ trợ đa dạng phần cứng, sự phát triển của Google Play, vai trò của OEM và cộng đồng lập trình viên.
+
+Chương 6: Android dưới góc nhìn nhà phát triển phần mềm  
+Mô tả: Trình bày sự tiến hóa của SDK, API, công cụ phát triển (Eclipse, Android Studio, Gradle), thay đổi trong mô hình lập trình và ảnh hưởng đến năng suất, chất lượng phần mềm.
+
+Chương 7: Phân mảnh Android – vấn đề kỹ thuật và thương mại  
+Mô tả: Phân tích nguyên nhân phân mảnh phiên bản và thiết bị, tác động đến bảo mật, cập nhật hệ thống, kiểm thử phần mềm, cùng các giải pháp Google đã và đang triển khai.
+
+Chương 8: Bảo mật và quyền riêng tư trong Android  
+Mô tả: Đánh giá mô hình bảo mật Android theo thời gian: sandbox, permission, SELinux, cập nhật bảo mật; nhìn nhận ưu và nhược điểm từ góc độ kỹ sư CNTT.
+
+Chương 9: Android trong kỷ nguyên đa nền tảng và IoT  
+Mô tả: Trình bày sự mở rộng của Android sang tablet, TV, wearables, ô tô và IoT; phân tích vai trò của Android trong chiến lược hệ sinh thái số của Google.
+
+Chương 10: Android hiện đại và xu hướng tương lai  
+Mô tả: Phân tích các phiên bản Android gần đây, định hướng kỹ thuật (modularization, Project Treble/Mainline), ảnh hưởng của AI, bảo mật nâng cao và dự đoán tương lai của Android dưới góc nhìn kỹ sư CNTT.
+
+Chương 11: Bài học kỹ thuật và quản trị từ lịch sử Android  
+Mô tả: Tổng kết các bài học về thiết kế hệ điều hành, quản trị dự án phần mềm quy mô lớn, cân bằng giữa mã nguồn mở và lợi ích thương mại, rút ra kinh nghiệm cho kỹ sư CNTT và nhà quản lý công nghệ.
