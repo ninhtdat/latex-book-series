@@ -1,0 +1,95 @@
+Chương 1: Khởi nguồn của công nghệ thông tin  
+Mô tả: Trình bày bối cảnh lịch sử trước khi CNTT hình thành, từ các công cụ tính toán sơ khai, hệ thống ghi chép dữ liệu, đến nhu cầu xử lý thông tin của xã hội loài người.  
+1. Nhu cầu lưu trữ và xử lý thông tin trong các xã hội cổ đại.  
+2. Các công cụ tính toán sơ khai như bàn tính, que tính và hệ đếm.  
+3. Sự phát triển của chữ viết và hệ thống ghi chép dữ liệu.  
+4. Vai trò của toán học và logic học trong nền tảng CNTT.  
+5. Giới hạn của phương pháp thủ công và yêu cầu tự động hóa thông tin.
+
+Chương 2: Sự ra đời của máy tính cơ học và điện tử  
+Mô tả: Phân tích các phát minh quan trọng như máy tính cơ học, máy tính điện tử thế hệ đầu, vai trò của chiến tranh và khoa học trong việc thúc đẩy sự phát triển máy tính.  
+1. Máy tính cơ học và các phát minh tiên phong trong tính toán tự động.  
+2. Quá trình chuyển đổi từ cơ học sang điện tử trong xử lý thông tin.  
+3. Đặc điểm kỹ thuật của máy tính điện tử thế hệ đầu.  
+4. Vai trò của chiến tranh và nghiên cứu khoa học đối với CNTT.  
+5. Nền móng cho sự phát triển của ngành công nghiệp máy tính.
+
+Chương 3: Các thế hệ máy tính  
+Mô tả: Mô tả chi tiết các thế hệ máy tính (đèn điện tử, transistor, mạch tích hợp, vi xử lý), đặc điểm kỹ thuật, ưu nhược điểm và tác động của từng thế hệ.  
+1. Thế hệ máy tính sử dụng đèn điện tử: cấu trúc và hạn chế.  
+2. Thế hệ transistor: cải tiến về kích thước, độ bền và hiệu năng.  
+3. Thế hệ mạch tích hợp: tăng tốc độ xử lý và độ tin cậy.  
+4. Thế hệ vi xử lý và sự ra đời của kiến trúc hiện đại.  
+5. Tác động của các thế hệ máy tính đối với kinh tế – xã hội.
+
+Chương 4: Sự hình thành của phần mềm và ngôn ngữ lập trình  
+Mô tả: Trình bày quá trình phát triển từ lập trình máy, hợp ngữ đến các ngôn ngữ bậc cao, hệ điều hành, và vai trò của phần mềm trong việc mở rộng khả năng ứng dụng CNTT.  
+1. Lập trình ở mức máy và những hạn chế ban đầu.  
+2. Sự ra đời của hợp ngữ và khái niệm trừu tượng hóa.  
+3. Phát triển ngôn ngữ lập trình bậc cao.  
+4. Hệ điều hành và chức năng quản lý tài nguyên.  
+5. Phần mềm như yếu tố cốt lõi tạo giá trị cho CNTT.
+
+Chương 5: Máy tính cá nhân và dân chủ hóa công nghệ  
+Mô tả: Phân tích sự xuất hiện của máy tính cá nhân, tác động của chúng tới doanh nghiệp, giáo dục và đời sống xã hội, cũng như sự thay đổi trong cách con người tiếp cận CNTT.  
+1. Bối cảnh kinh tế – kỹ thuật dẫn đến sự ra đời của máy tính cá nhân.  
+2. Phổ cập máy tính trong doanh nghiệp và hộ gia đình.  
+3. Ảnh hưởng của PC đến giáo dục và đào tạo nguồn nhân lực.  
+4. Thay đổi trong phương thức làm việc và tiếp cận thông tin.  
+5. Vai trò của máy tính cá nhân trong hình thành xã hội số.
+
+Chương 6: Mạng máy tính và Internet  
+Mô tả: Trình bày lịch sử hình thành mạng máy tính, Internet, World Wide Web và cách chúng thay đổi căn bản phương thức giao tiếp, chia sẻ thông tin và kinh doanh toàn cầu.  
+1. Nhu cầu kết nối và chia sẻ tài nguyên máy tính.  
+2. Các mô hình mạng máy tính ban đầu.  
+3. Sự ra đời của Internet và các giao thức cốt lõi.  
+4. World Wide Web và quá trình toàn cầu hóa thông tin.  
+5. Tác động của Internet đến giao tiếp, kinh doanh và xã hội hiện đại.
+
+Chương 7: CNTT trong doanh nghiệp và quản trị  
+Mô tả: Phân tích việc ứng dụng CNTT vào quản lý, sản xuất, tài chính, chuỗi cung ứng; sự hình thành của các hệ thống thông tin quản lý và chuyển đổi số.  
+1. Vai trò của CNTT trong quản lý và điều hành doanh nghiệp.  
+2. Các hệ thống thông tin quản lý (MIS, ERP, CRM).  
+3. Ứng dụng CNTT trong sản xuất, tài chính và chuỗi cung ứng.  
+4. CNTT như nền tảng cho chuyển đổi số doanh nghiệp.  
+5. Thách thức về tổ chức, con người và quản trị khi triển khai CNTT.
+
+Chương 8: Kỷ nguyên di động và điện toán đám mây  
+Mô tả: Mô tả sự bùng nổ của thiết bị di động, smartphone, điện toán đám mây và tác động của chúng đến mô hình sử dụng, triển khai và cung cấp dịch vụ CNTT.  
+1. Sự phát triển của thiết bị di động và smartphone.  
+2. Ứng dụng di động và thay đổi hành vi người dùng.  
+3. Khái niệm và mô hình điện toán đám mây.  
+4. Lợi ích và rủi ro của điện toán đám mây đối với tổ chức.  
+5. Thay đổi mô hình cung cấp và sử dụng dịch vụ CNTT.
+
+Chương 9: Dữ liệu lớn, trí tuệ nhân tạo và tự động hóa  
+Mô tả: Trình bày sự phát triển của dữ liệu lớn, học máy, trí tuệ nhân tạo, cùng ảnh hưởng của chúng đến kinh tế, lao động và ra quyết định.  
+1. Sự bùng nổ dữ liệu và khái niệm dữ liệu lớn.  
+2. Phân tích dữ liệu và hỗ trợ ra quyết định.  
+3. Học máy và trí tuệ nhân tạo trong thực tiễn.  
+4. Tự động hóa quy trình và thay đổi cơ cấu lao động.  
+5. Cơ hội và rủi ro kinh tế – xã hội từ AI.
+
+Chương 10: An toàn thông tin và các thách thức của CNTT hiện đại  
+Mô tả: Phân tích các vấn đề về bảo mật, quyền riêng tư, tấn công mạng và yêu cầu quản trị rủi ro trong môi trường CNTT ngày càng phức tạp.  
+1. Các mối đe dọa và hình thức tấn công mạng phổ biến.  
+2. An toàn thông tin và bảo vệ dữ liệu.  
+3. Quyền riêng tư và các vấn đề pháp lý liên quan.  
+4. Quản trị rủi ro và chiến lược an ninh CNTT.  
+5. Thách thức bảo mật trong môi trường số hóa toàn diện.
+
+Chương 11: Tác động xã hội, kinh tế và văn hóa của CNTT  
+Mô tả: Đánh giá ảnh hưởng lâu dài của CNTT đối với xã hội, cách con người làm việc, học tập, giao tiếp và những vấn đề đạo đức phát sinh.  
+1. CNTT và sự thay đổi mô hình kinh tế.  
+2. Ảnh hưởng của CNTT đến lao động và việc làm.  
+3. CNTT trong giáo dục và học tập suốt đời.  
+4. Thay đổi trong giao tiếp và văn hóa xã hội.  
+5. Các vấn đề đạo đức và trách nhiệm xã hội của CNTT.
+
+Chương 12: Xu hướng tương lai của công nghệ thông tin  
+Mô tả: Dự báo các xu hướng CNTT trong tương lai như AI nâng cao, Internet vạn vật, công nghệ lượng tử và vai trò của CNTT trong phát triển bền vững.  
+1. Trí tuệ nhân tạo thế hệ mới và ứng dụng mở rộng.  
+2. Internet vạn vật và môi trường kết nối toàn diện.  
+3. Công nghệ lượng tử và tiềm năng đột phá.  
+4. CNTT và phát triển bền vững.  
+5. Vai trò của con người trong tương lai số hóa.

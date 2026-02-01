@@ -1,0 +1,85 @@
+\chapter{Sự hình thành của phần mềm và ngôn ngữ lập trình}
+
+Sự phát triển của công nghệ thông tin không diễn ra một cách đột ngột mà là kết quả của một quá trình tiến hóa lâu dài, trong đó phần mềm và ngôn ngữ lập trình giữ vai trò trung tâm. Từ những ngày đầu máy tính chỉ có thể thực hiện các phép tính đơn giản cho đến các hệ thống phức tạp ngày nay, sự thay đổi trong cách con người giao tiếp và điều khiển máy tính đã quyết định trực tiếp đến phạm vi và giá trị ứng dụng của CNTT. Chương này tập trung phân tích quá trình hình thành đó, bắt đầu từ lập trình mức máy và những giới hạn ban đầu.
+
+\section{Lập trình ở mức máy và những hạn chế ban đầu}
+
+Trong giai đoạn sơ khai của lịch sử máy tính, lập trình được thực hiện trực tiếp ở mức máy. Chương trình khi đó là các chuỗi lệnh nhị phân, thường được biểu diễn dưới dạng các dãy bit 0 và 1, tương ứng với các thao tác rất cơ bản mà bộ xử lý có thể thực hiện. Mỗi lệnh máy gắn chặt với một kiến trúc phần cứng cụ thể, phản ánh trực tiếp cách bộ xử lý truy cập bộ nhớ, thực hiện phép toán và điều khiển luồng thực thi.
+
+Cách tiếp cận này mang tính tất yếu trong bối cảnh công nghệ còn hạn chế, nhưng đồng thời bộc lộ nhiều nhược điểm nghiêm trọng. Trước hết, lập trình mức máy đòi hỏi lập trình viên phải hiểu sâu và chi tiết về cấu trúc phần cứng. Việc viết chương trình không chỉ là giải quyết bài toán logic mà còn là thao tác trực tiếp với thanh ghi, địa chỉ bộ nhớ và tập lệnh của CPU. Điều này làm cho quá trình phát triển phần mềm trở nên phức tạp, khó tiếp cận và chỉ giới hạn trong một nhóm rất nhỏ các chuyên gia.
+
+Thứ hai, mã máy gần như không có khả năng đọc hiểu đối với con người. Một chương trình chỉ gồm các chuỗi bit hoặc các mã số tương ứng với lệnh máy, khiến việc kiểm tra, sửa lỗi và bảo trì trở nên cực kỳ khó khăn. Chỉ cần một sai sót nhỏ trong việc nhập lệnh cũng có thể dẫn đến lỗi nghiêm trọng, thậm chí làm hệ thống ngừng hoạt động. Việc phát hiện và khắc phục lỗi trong môi trường này tiêu tốn nhiều thời gian và công sức.
+
+Thứ ba, lập trình mức máy có tính phụ thuộc phần cứng rất cao. Một chương trình được viết cho một loại máy hoặc một thế hệ CPU cụ thể hầu như không thể sử dụng lại trên hệ thống khác. Khi phần cứng thay đổi, phần mềm buộc phải viết lại từ đầu. Điều này làm hạn chế nghiêm trọng khả năng tái sử dụng và mở rộng phần mềm, đồng thời làm tăng chi phí phát triển khi công nghệ phần cứng liên tục tiến bộ.
+
+Ngoài ra, năng suất phát triển phần mềm ở mức máy là rất thấp. Việc triển khai các bài toán phức tạp trở nên không thực tế do số lượng lệnh cần viết quá lớn và khó kiểm soát. Trong bối cảnh đó, máy tính chủ yếu được sử dụng cho các tác vụ tính toán khoa học hoặc quân sự với phạm vi ứng dụng hẹp, chưa thể phổ biến rộng rãi trong các lĩnh vực kinh tế và xã hội.
+
+Những hạn chế trên cho thấy một vấn đề cốt lõi: khoảng cách quá lớn giữa tư duy của con người và cách máy tính vận hành. Con người suy nghĩ bằng khái niệm, mô hình và logic trừu tượng, trong khi máy tính chỉ hiểu các tín hiệu nhị phân và lệnh mức thấp. Nếu không có một cơ chế trung gian để thu hẹp khoảng cách này, CNTT khó có thể phát triển thành một công cụ phổ biến và hiệu quả.
+
+Chính từ nhu cầu đó, yêu cầu về các phương thức lập trình thân thiện hơn, dễ hiểu hơn và ít phụ thuộc vào phần cứng bắt đầu hình thành. Việc nhận diện rõ những hạn chế của lập trình mức máy không chỉ mang ý nghĩa lịch sử, mà còn đặt nền móng cho sự ra đời của các khái niệm trừu tượng hóa và các ngôn ngữ lập trình ở mức cao hơn, mở đường cho sự phát triển mạnh mẽ của phần mềm trong các giai đoạn tiếp theo.
+
+\section{Sự ra đời của hợp ngữ và khái niệm trừu tượng hóa}
+
+Trước những hạn chế rõ rệt của lập trình mức máy, nhu cầu cải thiện cách con người tương tác với máy tính trở nên cấp thiết. Giải pháp đầu tiên xuất hiện không phải là một sự thay đổi triệt để, mà là một bước chuyển tiếp mang tính kỹ thuật: sự ra đời của hợp ngữ. Hợp ngữ được thiết kế nhằm giúp lập trình viên thoát khỏi việc làm việc trực tiếp với các chuỗi bit khó đọc, đồng thời vẫn giữ được khả năng kiểm soát chi tiết phần cứng.
+
+Hợp ngữ sử dụng các ký hiệu gợi nhớ (mnemonic) để biểu diễn các lệnh máy. Thay vì phải ghi nhớ và thao tác với các mã nhị phân hoặc mã số phức tạp, lập trình viên có thể sử dụng những từ viết tắt mang ý nghĩa rõ ràng hơn, chẳng hạn như các lệnh cộng, trừ, nạp dữ liệu hay so sánh. Các ký hiệu này sau đó được chuyển đổi tự động sang mã máy thông qua chương trình hợp dịch. Cơ chế này giúp giảm đáng kể sai sót khi lập trình và cải thiện khả năng đọc hiểu của mã nguồn.
+
+Sự xuất hiện của hợp ngữ đánh dấu bước hình thành ban đầu của khái niệm trừu tượng hóa trong lập trình. Trừu tượng hóa ở đây không nhằm che giấu hoàn toàn phần cứng, mà nhằm cung cấp một lớp biểu diễn trung gian, cho phép lập trình viên làm việc ở mức khái niệm gần với tư duy con người hơn. Thay vì thao tác trực tiếp với bit và địa chỉ bộ nhớ tuyệt đối, lập trình viên có thể sử dụng nhãn, biến tượng trưng và cấu trúc chương trình rõ ràng hơn.
+
+Tuy nhiên, mức độ trừu tượng hóa của hợp ngữ vẫn còn hạn chế. Mỗi ngôn ngữ hợp ngữ gắn chặt với một kiến trúc CPU cụ thể, phản ánh trực tiếp tập lệnh của phần cứng đó. Do vậy, chương trình viết bằng hợp ngữ cho một loại máy vẫn không thể chạy trên máy khác nếu kiến trúc thay đổi. Điều này cho thấy hợp ngữ chỉ giải quyết một phần vấn đề về khả năng đọc hiểu và giảm lỗi, nhưng chưa khắc phục được tính phụ thuộc phần cứng vốn có của lập trình mức thấp.
+
+Dù vậy, vai trò của hợp ngữ trong lịch sử phát triển phần mềm là không thể phủ nhận. Hợp ngữ cho phép phát triển các chương trình phức tạp hơn so với mã máy, đặc biệt trong các hệ thống yêu cầu hiệu năng cao hoặc kiểm soát chặt chẽ tài nguyên. Nhiều thành phần quan trọng của hệ điều hành, trình điều khiển thiết bị và hệ thống nhúng vẫn dựa vào hợp ngữ để đạt được hiệu quả tối ưu.
+
+Quan trọng hơn, hợp ngữ đã thay đổi cách nhìn về lập trình. Nó cho thấy rằng con người không nhất thiết phải giao tiếp với máy tính ở mức thấp nhất để đạt được hiệu quả, mà có thể sử dụng các lớp biểu diễn trung gian để đơn giản hóa tư duy và quy trình phát triển. Từ đó, ý tưởng tách dần lập trình khỏi chi tiết phần cứng bắt đầu hình thành, tạo tiền đề cho sự phát triển của các ngôn ngữ lập trình bậc cao.
+
+Có thể xem hợp ngữ như bước đệm quan trọng trong quá trình tiến hóa của phần mềm. Nó vừa phản ánh giới hạn của các giải pháp trung gian, vừa chỉ ra hướng đi tất yếu của CNTT: tăng cường trừu tượng hóa để nâng cao năng suất, giảm phụ thuộc phần cứng và mở rộng phạm vi ứng dụng. Những nguyên lý này tiếp tục được kế thừa và phát triển mạnh mẽ trong các thế hệ ngôn ngữ lập trình sau này.
+
+\section{Phát triển ngôn ngữ lập trình bậc cao}
+
+Mặc dù hợp ngữ đã cải thiện đáng kể khả năng đọc hiểu và giảm sai sót so với lập trình mức máy, nó vẫn chưa giải quyết được vấn đề cốt lõi là sự phụ thuộc chặt chẽ vào phần cứng. Khi quy mô và độ phức tạp của các bài toán ngày càng tăng, lập trình viên cần một cách tiếp cận mới, cho phép mô tả bài toán theo tư duy logic và nghiệp vụ thay vì theo cấu trúc của CPU. Từ nhu cầu đó, các ngôn ngữ lập trình bậc cao bắt đầu ra đời.
+
+Ngôn ngữ lập trình bậc cao được thiết kế nhằm thu hẹp tối đa khoảng cách giữa ngôn ngữ của con người và ngôn ngữ của máy tính. Thay vì tập trung vào các lệnh mức thấp, chúng cung cấp các khái niệm trừu tượng như biến, hằng số, kiểu dữ liệu, hàm, thủ tục và cấu trúc điều khiển. Nhờ đó, lập trình viên có thể tập trung mô hình hóa bài toán và xây dựng thuật toán một cách rõ ràng, mạch lạc hơn.
+
+Một đặc điểm quan trọng của ngôn ngữ bậc cao là khả năng tách biệt phần mềm khỏi phần cứng. Chương trình được viết bằng ngôn ngữ bậc cao không còn phụ thuộc trực tiếp vào tập lệnh của CPU, mà được dịch hoặc thông dịch thông qua các trình biên dịch và trình thông dịch. Cơ chế này cho phép cùng một chương trình có thể chạy trên nhiều nền tảng phần cứng khác nhau với ít hoặc không cần chỉnh sửa, miễn là có môi trường thực thi phù hợp. Đây là bước tiến lớn trong việc nâng cao tính di động và khả năng tái sử dụng của phần mềm.
+
+Sự phát triển của ngôn ngữ bậc cao cũng kéo theo sự gia tăng mạnh mẽ về năng suất lập trình. Các cấu trúc điều khiển như vòng lặp, rẽ nhánh và xử lý ngoại lệ giúp giảm đáng kể số lượng mã cần viết so với hợp ngữ. Đồng thời, việc chia chương trình thành các hàm và mô-đun độc lập tạo điều kiện cho việc kiểm thử, bảo trì và mở rộng hệ thống. Phần mềm không còn là tập hợp các lệnh rời rạc, mà trở thành một cấu trúc logic có tổ chức.
+
+Bên cạnh đó, ngôn ngữ bậc cao tạo nền tảng cho sự phát triển của các phương pháp và mô hình lập trình mới. Từ lập trình thủ tục, lập trình hướng đối tượng cho đến các mô hình hiện đại hơn như lập trình hàm hay lập trình hướng sự kiện, tất cả đều dựa trên mức trừu tượng cao của ngôn ngữ. Những mô hình này cho phép mô tả hệ thống phần mềm theo cách gần gũi với thực tế và nghiệp vụ, đặc biệt trong các ứng dụng quy mô lớn.
+
+Tuy nhiên, việc nâng cao mức trừu tượng cũng đi kèm với những đánh đổi nhất định. So với hợp ngữ, chương trình viết bằng ngôn ngữ bậc cao thường kém hiệu quả hơn về mặt sử dụng tài nguyên nếu không được tối ưu tốt. Do đó, vai trò của trình biên dịch và các kỹ thuật tối ưu hóa trở nên đặc biệt quan trọng. Sự tiến bộ trong công nghệ biên dịch đã góp phần thu hẹp khoảng cách hiệu năng này, khiến ngôn ngữ bậc cao ngày càng phù hợp cho cả các hệ thống đòi hỏi hiệu suất cao.
+
+Nhìn tổng thể, sự phát triển của ngôn ngữ lập trình bậc cao là bước ngoặt mang tính quyết định trong lịch sử CNTT. Nó chuyển trọng tâm từ máy móc sang con người, từ chi tiết phần cứng sang tư duy giải quyết vấn đề. Nhờ đó, phần mềm có thể mở rộng về quy mô, đa dạng về lĩnh vực ứng dụng và trở thành nền tảng cốt lõi cho sự phát triển của các hệ thống thông tin hiện đại.
+
+\section{Hệ điều hành và chức năng quản lý tài nguyên}
+
+Sự phát triển của ngôn ngữ lập trình bậc cao giúp lập trình viên tập trung vào logic và mô hình hóa bài toán, nhưng đồng thời cũng đặt ra yêu cầu mới: cần một cơ chế thống nhất để điều phối việc sử dụng phần cứng cho nhiều chương trình khác nhau. Khi máy tính không còn chỉ chạy một chương trình duy nhất, vai trò của hệ điều hành bắt đầu trở nên trung tâm trong toàn bộ hệ sinh thái phần mềm.
+
+Hệ điều hành là lớp phần mềm hệ thống đóng vai trò trung gian giữa phần cứng và các chương trình ứng dụng. Thay vì để mỗi chương trình trực tiếp truy cập và điều khiển phần cứng, hệ điều hành cung cấp các dịch vụ chuẩn hóa để quản lý và phân phối tài nguyên. Cách tiếp cận này giúp đảm bảo tính ổn định, an toàn và hiệu quả cho toàn bộ hệ thống máy tính.
+
+Một trong những chức năng quan trọng nhất của hệ điều hành là quản lý bộ xử lý trung tâm. Thông qua các cơ chế lập lịch, hệ điều hành phân chia thời gian xử lý cho nhiều tiến trình khác nhau, tạo cảm giác rằng nhiều chương trình có thể chạy đồng thời. Điều này không chỉ nâng cao hiệu suất sử dụng CPU mà còn mở rộng đáng kể khả năng ứng dụng của máy tính trong môi trường đa nhiệm.
+
+Quản lý bộ nhớ cũng là một nhiệm vụ cốt lõi của hệ điều hành. Hệ điều hành chịu trách nhiệm phân bổ, thu hồi và bảo vệ không gian bộ nhớ cho từng tiến trình, đảm bảo các chương trình không xâm phạm lẫn nhau. Các kỹ thuật như phân trang, phân đoạn và bộ nhớ ảo cho phép hệ thống chạy các chương trình có kích thước lớn hơn dung lượng bộ nhớ vật lý, đồng thời nâng cao tính linh hoạt và ổn định của hệ thống.
+
+Bên cạnh CPU và bộ nhớ, hệ điều hành còn quản lý các thiết bị vào ra như ổ đĩa, bàn phím, màn hình và các thiết bị ngoại vi khác. Thông qua các trình điều khiển thiết bị, hệ điều hành che giấu sự phức tạp và khác biệt của phần cứng, cung cấp cho lập trình viên và người dùng một giao diện thống nhất. Nhờ đó, phần mềm ứng dụng có thể hoạt động độc lập tương đối với cấu hình phần cứng cụ thể.
+
+Một khía cạnh quan trọng khác là quản lý tiến trình và tài nguyên dùng chung. Hệ điều hành đảm bảo các chương trình hoạt động đồng thời không gây xung đột, tránh tình trạng tranh chấp tài nguyên dẫn đến lỗi hoặc treo hệ thống. Các cơ chế đồng bộ, bảo vệ và phân quyền giúp duy trì trật tự và độ tin cậy của môi trường thực thi.
+
+Từ góc độ phát triển phần mềm, hệ điều hành đóng vai trò như một nền tảng. Các dịch vụ hệ thống, lời gọi hệ thống và thư viện chuẩn giúp lập trình viên không cần xử lý trực tiếp các chi tiết phần cứng phức tạp. Điều này tiếp tục nâng cao mức trừu tượng, cho phép phần mềm ngày càng tập trung vào nghiệp vụ và giá trị ứng dụng.
+
+Có thể khẳng định rằng hệ điều hành là yếu tố then chốt kết nối phần cứng với thế giới phần mềm bậc cao. Nhờ khả năng quản lý tài nguyên hiệu quả, hệ điều hành không chỉ tối ưu hóa việc sử dụng phần cứng mà còn tạo điều kiện cho sự phát triển của các hệ thống phần mềm lớn, đa nhiệm và phục vụ nhiều người dùng, đặt nền móng cho các ứng dụng CNTT hiện đại.
+
+\section{Phần mềm như yếu tố cốt lõi tạo giá trị cho CNTT}
+
+Khi ngôn ngữ lập trình bậc cao và hệ điều hành đã định hình rõ vai trò của mình, phần mềm dần vượt ra khỏi vị trí một công cụ kỹ thuật thuần túy để trở thành yếu tố trung tâm tạo ra giá trị cho công nghệ thông tin. Trong giai đoạn đầu, giá trị của hệ thống máy tính chủ yếu gắn với năng lực phần cứng như tốc độ xử lý hay dung lượng lưu trữ. Tuy nhiên, cùng với sự trưởng thành của phần mềm, trọng tâm này đã dịch chuyển rõ rệt.
+
+Phần mềm chính là yếu tố quyết định máy tính có thể được sử dụng vào mục đích gì và với hiệu quả ra sao. Cùng một nền tảng phần cứng, sự khác biệt về phần mềm có thể tạo ra những hệ thống hoàn toàn khác nhau về chức năng và giá trị sử dụng. Phần mềm biến năng lực tính toán thuần túy thành các ứng dụng cụ thể phục vụ khoa học, sản xuất, quản lý, kinh doanh và đời sống xã hội.
+
+Một đặc điểm quan trọng của phần mềm là khả năng mở rộng và thích nghi. Không giống như phần cứng vốn bị giới hạn bởi cấu trúc vật lý, phần mềm có thể được cập nhật, nâng cấp và tái cấu trúc để đáp ứng các yêu cầu mới. Điều này cho phép hệ thống CNTT thích ứng nhanh với sự thay đổi của môi trường công nghệ và nhu cầu của người dùng, đồng thời kéo dài vòng đời khai thác của phần cứng.
+
+Phần mềm cũng đóng vai trò then chốt trong việc chuẩn hóa và phổ cập CNTT. Thông qua các hệ điều hành, nền tảng và ứng dụng, phần mềm che giấu sự phức tạp kỹ thuật, giúp người dùng không chuyên vẫn có thể khai thác hiệu quả máy tính. Nhờ đó, CNTT không còn giới hạn trong các phòng thí nghiệm hay tổ chức chuyên môn, mà trở thành công cụ phổ biến trong mọi lĩnh vực của xã hội hiện đại.
+
+Từ góc độ kinh tế, giá trị của CNTT ngày càng được tạo ra chủ yếu từ phần mềm. Các hệ thống quản lý, nền tảng dịch vụ, ứng dụng doanh nghiệp và sản phẩm số đều dựa trên phần mềm như thành phần cốt lõi. Trong nhiều trường hợp, phần cứng chỉ đóng vai trò hạ tầng, trong khi giá trị cạnh tranh và khác biệt nằm ở chất lượng, khả năng mở rộng và tính sáng tạo của phần mềm.
+
+Ngoài ra, phần mềm còn là nền tảng cho đổi mới công nghệ. Các tiến bộ trong trí tuệ nhân tạo, dữ liệu lớn, điện toán đám mây hay Internet vạn vật đều được hiện thực hóa thông qua các hệ thống phần mềm phức tạp. Chính phần mềm cho phép tích hợp, xử lý và khai thác hiệu quả khối lượng lớn tài nguyên tính toán và dữ liệu, mở ra những mô hình ứng dụng mới.
+
+Tổng hợp lại, sự hình thành và phát triển của phần mềm không chỉ là một bước tiến kỹ thuật, mà là yếu tố quyết định đưa CNTT trở thành hạ tầng cốt lõi của xã hội hiện đại. Phần mềm kết nối con người với máy tính, biến phần cứng thành công cụ hữu ích và tạo ra giá trị bền vững cho các hệ thống thông tin. Đây cũng là nền tảng để CNTT tiếp tục phát triển và mở rộng trong các giai đoạn tiếp theo.
