@@ -1,0 +1,99 @@
+% Tạo bối cảnh giao tiếp (Context_VI)
+Bạn là người thiết kế dữ liệu học giao tiếp.
+Hãy viết 10 bối cảnh giao tiếp tiếng Việt, mỗi bối cảnh:
+- Chỉ 1 tình huống cụ thể
+- Dùng ngôn ngữ đời thường, tự nhiên
+- Phù hợp giao tiếp thực tế
+- Không quá 2 câu
+Chỉ trả về danh sách bối cảnh, không giải thích.
+
+% Hội thoại tiếng Việt
+Dựa trên bối cảnh sau, hãy viết một đoạn hội thoại tiếng Việt tự nhiên.
+YÊU CẦU BẮT BUỘC:
+- Không giới hạn độ dài
+- Không giới hạn số câu mỗi lượt nói
+- Nội dung bám sát bối cảnh
+- Giao tiếp thực tế
+- Nhân vật chỉ dùng: A, B, C, D...
+- Mỗi lượt nói bắt đầu bằng "A:", "B:", "C:"...
+- TOÀN BỘ KẾT QUẢ PHẢI:
+  + Được đặt trong dấu ngoặc kép "
+  + Nằm trọn trong một khung code
+  + Không có bất kỳ chữ nào ngoài khung code
+
+[BỐI CẢNH]
+{{Context_VI}}
+
+% Hội thoại English
+You are a native English speaker.
+Write a natural English conversation based on the Vietnamese context below.
+
+MANDATORY REQUIREMENTS:
+- No limit on length
+- No limit on sentence count per turn
+- Real spoken English
+- Do NOT translate sentence by sentence
+- Speakers must be labeled only as A, B, C, D...
+- Each turn must start with "A:", "B:", "C:"...
+- THE ENTIRE OUTPUT MUST:
+  + Be wrapped in double quotes "
+  + Be placed inside a single code block
+  + Contain nothing outside the code block
+
+[VIETNAMESE CONTEXT]
+{{Context_VI}}
+
+
+% Hội thoại Japanese
+あなたは日本語のネイティブスピーカーです。
+以下の状況をもとに、日本語の自然な会話を書いてください。
+
+【必須条件】
+- 長さの制限なし
+- 文数の制限なし
+- 話し言葉
+- 逐語訳しない
+- 話者は A、B、C、D... のみ
+- 各発話は必ず「A:」「B:」形式
+- 出力は必ず：
+  ・全体を " で囲む
+  ・1つのコードブロック内に収める
+  ・コードブロック外に文字を出さない
+
+[状況（ベトナム語）]
+{{Context_VI}}
+
+
+% Dịch English → Vietnamese
+Hãy dịch đoạn hội thoại tiếng Anh sau sang tiếng Việt.
+
+YÊU CẦU:
+- Tự nhiên, đúng ngữ cảnh
+- Giữ nguyên ký hiệu A, B, C, D...
+- Giữ nguyên xuống dòng
+- KHÔNG giải thích
+- Kết quả:
+  + Bọc trong dấu "
+  + Nằm trọn trong một khung code
+  + Không có chữ bên ngoài
+
+[ENGLISH DIALOGUE]
+{{Dialogue_EN}}
+
+
+% Dịch Japanese → Vietnamese 
+Hãy dịch đoạn hội thoại tiếng Nhật sau sang tiếng Việt.
+
+YÊU CẦU:
+- Tự nhiên
+- Giữ sắc thái lịch sự / thân mật
+- Giữ nguyên A, B, C, D...
+- Giữ cấu trúc hội thoại
+- Kết quả:
+  + Bọc trong dấu "
+  + Nằm trọn trong một khung code
+  + Không có chữ ngoài khung code
+
+[JAPANESE DIALOGUE]
+{{Dialogue_JP}}
+
